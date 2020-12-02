@@ -6,3 +6,5 @@
 // LIGHT-BROWN #A6A0AC
 // BROWN #BF653B
 // NEON-BLUE #19A0CC
+export const primary = '#131C55';
+export const secondary = '#13CAE5';
