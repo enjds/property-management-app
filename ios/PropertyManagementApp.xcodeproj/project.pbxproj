@@ -19,6 +19,7 @@
 		3F8776E6745FF835C947558D /* libPods-PropertyManagementApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 812127DF4D8F1831A860CE42 /* libPods-PropertyManagementApp-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B7BEC0D5699F69AF6FD0A165 /* libPods-PropertyManagementApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2FFC4D6F1EC06556143618 /* libPods-PropertyManagementApp-tvOSTests.a */; };
+		D4A95BD42577EBA800572B55 /* Questrial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4A95BD32577EBA800572B55 /* Questrial-Regular.ttf */; };
 		E76D75476F54738672011B08 /* libPods-PropertyManagementApp-PropertyManagementAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF31DB6A3CA026A20F846BB /* libPods-PropertyManagementApp-PropertyManagementAppTests.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		812127DF4D8F1831A860CE42 /* libPods-PropertyManagementApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PropertyManagementApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PropertyManagementApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4519CB87E6EFD832E23F561 /* libPods-PropertyManagementApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PropertyManagementApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A95BD32577EBA800572B55 /* Questrial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Questrial-Regular.ttf"; path = "../src/assets/fonts/Questrial-Regular.ttf"; sourceTree = "<group>"; };
 		DEF31DB6A3CA026A20F846BB /* libPods-PropertyManagementApp-PropertyManagementAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PropertyManagementApp-PropertyManagementAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5801E1BA6A89ED3D970CEAD /* Pods-PropertyManagementApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PropertyManagementApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-PropertyManagementApp-tvOSTests/Pods-PropertyManagementApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -159,6 +161,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				D4A95BD32577EBA800572B55 /* Questrial-Regular.ttf */,
 				13B07FAE1A68108700A75B9A /* PropertyManagementApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* PropertyManagementAppTests */,
@@ -194,7 +197,6 @@
 				1DB72659F980B66B68CC5F64 /* Pods-PropertyManagementApp-tvOSTests.debug.xcconfig */,
 				E5801E1BA6A89ED3D970CEAD /* Pods-PropertyManagementApp-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -340,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A95BD42577EBA800572B55 /* Questrial-Regular.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -375,7 +378,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		04C37CE9FFB4DB648EECB41A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
